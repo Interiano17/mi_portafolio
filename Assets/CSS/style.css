@@ -1,0 +1,141 @@
+.navbar{
+    background-image: url("../img/fondo.jpg");
+    background-size:contain; 
+}
+
+.nav-link{
+    color: white;
+}
+
+.card{
+    height: 470px;
+    cursor: pointer;
+}
+
+.tituloRestaurante{
+    font-size: 50px;
+    color: gray;
+}
+
+.destacados{
+    text-decoration-line: overline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formulario1{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom:40px;
+    background-color: black;
+    padding: 2%;
+    color: white;
+    border-radius: 2%;
+}
+
+.derechos{
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/fondo.jpg");
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoderechos{
+    color:white;
+}
+
+@media(max-width:768px) {
+    .formulario1{
+    display: none;
+    }
+}
+
+.imagenModal{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
+#imagenModalID{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modalTexto{
+    color: white;
+}
+
+.modalSubTexto{
+    color:white;
+}
+
+.SubtextoSN{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imagenModalSN{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.SN{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-bottom: 16%;
+}
+
+.SN2{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /* overflow: auto; Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: black;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 55%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
