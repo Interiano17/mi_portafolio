@@ -51,7 +51,9 @@ var span = document.getElementsByClassName("close")[0];
 
 // Abrir el modal después del click
 btn1.onclick = function() {
-    modal1.style.display = "block";
+    if(screen.width >= 1200){
+      modal1.style.display = "block";
+    } 
   }
   
   // Cerrar el modal
@@ -72,7 +74,9 @@ var span = document.getElementsByClassName("close")[1];
 
 // Abrir el modal después del click
 btn2.onclick = function() {
+  if(screen.width >= 1200){
     modal2.style.display = "block";
+  } 
 }
   
   // Cerrar el modal
@@ -93,7 +97,9 @@ var span3 = document.getElementsByClassName("close")[2];
 
 // Abrir el modal después del click
 btn3.onclick = function() {
-  modal3.style.display = "block";
+  if(screen.width >= 1200){
+    modal3.style.display = "block";
+  } 
 }
 
 // Cerrar el modal
@@ -114,7 +120,9 @@ var span4 = document.getElementsByClassName("close")[3];
 
 // Abrir el modal después del click
 botonSN.onclick = function() {
-  modalSN.style.display = "block";
+  if(screen.width >= 1200){
+    modalSN.style.display = "block";
+  } 
 }
 
 // Cerrar el modal
