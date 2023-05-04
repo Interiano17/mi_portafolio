@@ -1,0 +1,13 @@
+Pablo Interiano@DESKTOP-IBSR0EU MINGW64 ~/Documents/Tareas/Curso Programación/Módulo 2/Sesión 12/Restaurante v8 (master)
+$ git config --global user.name "Pablo Interiano"
+
+Pablo Interiano@DESKTOP-IBSR0EU MINGW64 ~/Documents/Tareas/Curso Programación/Módulo 2/Sesión 12/Restaurante v8 (master)
+$ git config --global user.email "interianoppablo@gmail.com"
+
+Pablo Interiano@DESKTOP-IBSR0EU MINGW64 ~/Documents/Tareas/Curso Programación/Módulo 2/Sesión 12/Restaurante v8 (master)
+$ git log
+commit 13931db9ed49f9a3c43a9f9e796869e70aa86853 (HEAD -> master)
+Author: Pablo Interiano <interianoppablo@gmail.com>
+Date:   Mon May 1 21:06:36 2023 -0600
+
+    Primer commit
